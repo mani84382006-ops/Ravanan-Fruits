@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Ravanaan Fruiet Shop</title>
+  <meta name="description" content="Browse fresh fruit, curated baskets, and seasonal bundles from Ravanaan Fruiet Shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand-mark" href="index.html">
+        <span class="brand-badge">RF</span>
+        <span>
+          <strong>Ravanaan Fruiet Shop</strong>
+          <small>Seasonal Fruit Market</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="catalog-hero reveal">
+        <div>
+          <p class="eyebrow">Our fruit selection</p>
+          <h1>Colorful produce and curated boxes for every day.</h1>
+        </div>
+        <p class="catalog-copy">
+          Choose from premium singles, snack-friendly bundles, and celebration-ready baskets. Use the
+          category filters to find the right fruit collection faster.
+        </p>
+      </section>
+
+      <section class="filters reveal">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="fresh">Fresh Picks</button>
+        <button class="filter-button" type="button" data-filter="basket">Gift Baskets</button>
+        <button class="filter-button" type="button" data-filter="bundle">Bundles</button>
+      </section>
+
+      <section class="products-grid reveal">
+        <article class="product-card" data-category="fresh">
+          <div class="product-art mango"></div>
+          <div class="product-content">
+            <span class="product-tag">Fresh Pick</span>
+            <h2>Golden Mango Set</h2>
+            <p>Sweet, fragrant mangoes selected for dessert plates and smoothie bowls.</p>
+            <div class="product-meta">
+              <strong>$12</strong>
+              <span>per 4-pack</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="fresh">
+          <div class="product-art citrus"></div>
+          <div class="product-content">
+            <span class="product-tag">Fresh Pick</span>
+            <h2>Citrus Glow Pack</h2>
+            <p>A zesty mix of oranges, sweet lime, and grapefruit for bright morning flavor.</p>
+            <div class="product-meta">
+              <strong>$15</strong>
+              <span>mixed pack</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="basket">
+          <div class="product-art celebration"></div>
+          <div class="product-content">
+            <span class="product-tag">Gift Basket</span>
+            <h2>Celebration Fruit Basket</h2>
+            <p>Styled with grapes, pears, apples, and citrus in a premium woven tray.</p>
+            <div class="product-meta">
+              <strong>$34</strong>
+              <span>gift ready</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundle">
+          <div class="product-art breakfast"></div>
+          <div class="product-content">
+            <span class="product-tag">Bundle</span>
+            <h2>Breakfast Energy Box</h2>
+            <p>Bananas, apples, and berries prepared for quick mornings and lunchboxes.</p>
+            <div class="product-meta">
+              <strong>$22</strong>
+              <span>family bundle</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="fresh">
+          <div class="product-art berries"></div>
+          <div class="product-content">
+            <span class="product-tag">Fresh Pick</span>
+            <h2>Berry Delight Cup</h2>
+            <p>Juicy berry mix chosen for snacking, parfaits, and bright dessert toppings.</p>
+            <div class="product-meta">
+              <strong>$9</strong>
+              <span>fresh cup</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundle">
+          <div class="product-art tropical"></div>
+          <div class="product-content">
+            <span class="product-tag">Bundle</span>
+            <h2>Tropical Weekend Crate</h2>
+            <p>Pineapple, papaya, banana, and mango for party platters and chilled juices.</p>
+            <div class="product-meta">
+              <strong>$28</strong>
+              <span>weekend crate</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="basket">
+          <div class="product-art luxury"></div>
+          <div class="product-content">
+            <span class="product-tag">Gift Basket</span>
+            <h2>Luxury Orchard Basket</h2>
+            <p>Premium apples, kiwi, pears, and imported grapes with elegant wrapping.</p>
+            <div class="product-meta">
+              <strong>$42</strong>
+              <span>signature gift</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="bundle">
+          <div class="product-art smoothie"></div>
+          <div class="product-content">
+            <span class="product-tag">Bundle</span>
+            <h2>Smoothie Starter Pack</h2>
+            <p>Blender-ready fruit combinations designed for quick nutritious drinks.</p>
+            <div class="product-meta">
+              <strong>$18</strong>
+              <span>starter pack</span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Ravanaan Fruiet Shop</strong>
+        <p>Fruit-forward essentials, premium gifts, and fresh daily flavor.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <p class="footer-note">© <span id="year"></span> Ravanaan Fruiet Shop. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
