@@ -74,13 +74,16 @@ function getLocation() {
             let lat = position.coords.latitude;
             let lon = position.coords.longitude;
 
+            let mapLink = `https://www.google.com/maps?q=${lat},${lon}`;
+
             document.getElementById("locationText").innerText =
-                `Latitude: ${lat}, Longitude: ${lon}`;
+                `📍 Location: ${mapLink}`;
         });
     } else {
         alert("Geolocation not supported");
     }
 }
+
 
 
 function placeOrder() {
